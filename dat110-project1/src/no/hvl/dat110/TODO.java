@@ -4,6 +4,8 @@ public class TODO {
 
 	public static String method() {
 		
+		// Test for Github
+		
 		String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
 		
 		return "Metoden " + methodName + " er ikke implementert";
